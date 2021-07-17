@@ -11,6 +11,7 @@
 		CEEB2BE526A260F100CB0101 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB2BE426A260F100CB0101 /* ContentView.swift */; };
 		CEEB2BE726A260F200CB0101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEB2BE626A260F200CB0101 /* Assets.xcassets */; };
 		CEEB2BEA26A260F200CB0101 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEB2BE926A260F200CB0101 /* Preview Assets.xcassets */; };
+		CEEB2BF226A2617500CB0101 /* OrientationDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB2BF126A2617500CB0101 /* OrientationDetector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		CEEB2BE626A260F200CB0101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEEB2BE926A260F200CB0101 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEEB2BEB26A260F200CB0101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEB2BF126A2617500CB0101 /* OrientationDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationDetector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				CEEB2BE226A260F100CB0101 /* OrientationDetectorApp.swift */,
+				CEEB2BF126A2617500CB0101 /* OrientationDetector.swift */,
 				CEEB2BE426A260F100CB0101 /* ContentView.swift */,
 				CEEB2BE626A260F200CB0101 /* Assets.xcassets */,
 				CEEB2BEB26A260F200CB0101 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEEB2BE526A260F100CB0101 /* ContentView.swift in Sources */,
+				CEEB2BF226A2617500CB0101 /* OrientationDetector.swift in Sources */,
 				CEEB2BE326A260F100CB0101 /* OrientationDetectorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
