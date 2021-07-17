@@ -24,7 +24,7 @@ struct ContentView: View {
         .onAppear() {
             self.orientationDetector.onAppear()
         }
-        .onReceive(self.orientationDetector.$deviceOrientation_) {
+        .onReceive(self.orientationDetector.$deviceOrientation) {
             self.deviceOrientaion = getDeviceOrientation(orientation: $0)
             self.deviceOrientationImageName = getDeviceOrientationImageName(orientation: $0)
             print(deviceOrientaion)

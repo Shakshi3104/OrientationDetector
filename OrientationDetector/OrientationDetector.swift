@@ -60,6 +60,7 @@ func getDeviceOrientationImageName(orientation: UIDeviceOrientation) -> String {
 }
 
 /// Orientation Detector using the Combine and @Published
+/// referring to https://qiita.com/hcrane/items/48fbf9ccde2090e7202c
 class OrientationDetector: ObservableObject {
     
     // MARK: Properties
@@ -67,7 +68,7 @@ class OrientationDetector: ObservableObject {
     
     // MARK: Outputs
     private let deviceOrientation$ = PassthroughSubject<UIDeviceOrientation, Never>()
-    @Published var deviceOrientation_: UIDeviceOrientation = .unknown
+    @Published var deviceOrientation: UIDeviceOrientation = UIDevice.current.orientation
     
     // MARK: Intpus
     func onAppear() {
@@ -81,12 +82,7 @@ class OrientationDetector: ObservableObject {
         
         deviceOrientation$
             .map { $0 }
-            .assign(to: \.deviceOrientation_, on: self)
+            .assign(to: \.deviceOrientation, on: self)
             .store(in: &cancellables)
-    }
-    
-    // MARK: Initializer
-    init() {
-        self.deviceOrientation_ = UIDevice.current.orientation
     }
 }
