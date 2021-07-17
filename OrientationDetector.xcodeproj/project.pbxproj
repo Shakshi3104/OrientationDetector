@@ -15,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE2F88C826A27563009ABF11 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE2F88C926A27653009ABF11 /* OrientationDetector.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = OrientationDetector.gif; sourceTree = "<group>"; };
 		CEEB2BDF26A260F100CB0101 /* OrientationDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrientationDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEB2BE226A260F100CB0101 /* OrientationDetectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationDetectorApp.swift; sourceTree = "<group>"; };
 		CEEB2BE426A260F100CB0101 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +40,8 @@
 		CEEB2BD626A260F100CB0101 = {
 			isa = PBXGroup;
 			children = (
+				CE2F88C926A27653009ABF11 /* OrientationDetector.gif */,
+				CE2F88C826A27563009ABF11 /* README.md */,
 				CEEB2BE126A260F100CB0101 /* OrientationDetector */,
 				CEEB2BE026A260F100CB0101 /* Products */,
 			);
