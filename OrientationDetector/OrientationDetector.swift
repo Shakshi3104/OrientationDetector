@@ -35,6 +35,9 @@ func getDeviceOrientation(orientation: UIDeviceOrientation) -> String {
 }
 
 
+/// get systemName of Image corresponding to the device orientation
+/// - Parameter orientation: UIDeviceOrientation
+/// - Returns: systemName of Image corresponding to the device orientation
 func getDeviceOrientationImageName(orientation: UIDeviceOrientation) -> String {
     switch orientation {
     case .landscapeRight, .landscapeLeft:
@@ -56,6 +59,7 @@ func getDeviceOrientationImageName(orientation: UIDeviceOrientation) -> String {
     }
 }
 
+/// Orientation Detector using the Combine and @Published
 class OrientationDetector: ObservableObject {
     
     // MARK: Properties
